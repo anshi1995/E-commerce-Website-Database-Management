@@ -16,6 +16,6 @@ For the project, I have chosen to build the online shopping model for electronic
 7)	Each product will belong to a certain category depending on the type of item being sold. One product can belong to a single category.
 8)	Each order can be assigned to a courier service that takes care of shipping the products to the customer.
 9)	3 types of roles (supplier, customer, and admins) with different privileges granted will be available on the website.
-a.	Suppliers are the source of the range of products available.
-b.	Once the visitor decides to purchase items, they need to register on the website. Such users then become customers.
-c.	Admins, on the other hand, will have special privileges apart from the other roles. This will include adding new products, editing, or removing available products, marking products as out of stock, etc.
+* Suppliers are the source of the range of products available.
+*	Once the visitor decides to purchase items, they need to register on the website. Such users then become customers.
+* Admins, on the other hand, will have special privileges apart from the other roles. This will include adding new products, editing, or removing available products, marking products as out of stock, etc.
