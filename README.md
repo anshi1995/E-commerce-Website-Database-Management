@@ -1,7 +1,7 @@
 # E-commerce-Website-Database-Management
 In recent times, online retail platforms have gained popularity over traditional stores as the shopping behaviors are changing.
 The main objective of this project is to develop an e-commerce platform model for a customer where they can register or buy a product i.e., it allows registered users to view and purchase the required products.
-For the project, I have chosen to build the online shopping model for electronics including mobile phones, laptops, monitors, phone accessories, speakers etc.
+For the project, we have chosen to build the online shopping model for electronics including mobile phones, laptops, monitors, phone accessories, speakers etc.
 
 ![image](https://www.zeumic.com.au/wp-content/uploads/2018/01/zeumic-e-commerce-cycle-image.jpg)
 
@@ -18,3 +18,13 @@ For the project, I have chosen to build the online shopping model for electronic
 * **Suppliers** are the source of the range of products available.
 *	Once the visitor decides to purchase items, they need to register on the website. Such users then become **customers**.
 * **Admins**, on the other hand, will have special privileges apart from the other roles. This will include adding new products, editing, or removing available products, marking products as out of stock, etc.
+
+## Implementation in MySQL:
+Data Generation:
+The relational model has been translated to the database schema in MySQL. After creating the tables, we used the ‘https://generatedata.com/generator’ to create the sample data for the database. We specified data type and attribute type name for each attribute of every table in the model to create data for corresponding tables. Further, we used insert queries to load the data in the database.
+
+## Implementation in NoSQL:
+A small part of the database model that we have created has been implemented in the Neo4j application as part of NoSQL implementation. This is a graph database that helps to easily visualize the relationship between different tables. Out of the 13 tables, we have implemented 5 important tables including Customer, Orders, Product, Category and Supplier. Cypher queries have been written to create these tables. Further, the relationships between these tables have been defined.
+
+## Database Access Via Python (Application):
+The database is accessed using Python and basic analytics and isualization is performed. The connection of MySQL to Python is done using ‘mysql.connector’ and ‘mycursor.execute’ is used to execute the query through python followed by converting the list into a dataframe using pandas library and finally using matplotlib and seaborn to plot the graphs for the analytics.
