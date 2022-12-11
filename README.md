@@ -21,7 +21,7 @@ For the project, we have chosen to build the online shopping model for electroni
 
 ## Implementation in MySQL:
 Data Generation:
-The relational model has been translated to the database schema in MySQL. After creating the tables, we used the ‘https://generatedata.com/generator’ to create the sample data for the database. We specified data type and attribute type name for each attribute of every table in the model to create data for corresponding tables. Further, we used insert queries to load the data in the database.
+The relational model has been translated to the database schema in MySQL. After creating the tables, we used the https://generatedata.com/generator to create the sample data for the database. We specified data type and attribute type name for each attribute of every table in the model to create data for corresponding tables. Further, we used insert queries to load the data in the database.
 
 ## Implementation in NoSQL:
 A small part of the database model that we have created has been implemented in the Neo4j application as part of NoSQL implementation. This is a graph database that helps to easily visualize the relationship between different tables. Out of the 13 tables, we have implemented 5 important tables including Customer, Orders, Product, Category and Supplier. Cypher queries have been written to create these tables. Further, the relationships between these tables have been defined.
